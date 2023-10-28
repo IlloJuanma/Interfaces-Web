@@ -1,0 +1,132 @@
+/* --- Utilidades --- */
+:root {
+    --azul: #3C76FC;
+    --dorado: #DCD907;
+    --negro: #000000;
+    --colorRadiante: linear-gradient(175deg, rgba(2, 0, 36, 1) 0%, rgba(58, 97, 124, 1) 17%, rgba(0, 212, 255, 1) 100%);
+    --colorBody: linear-gradient(0deg, rgba(0,0,0,1) 17%, rgba(205,205,218,1) 48%, rgba(0,212,255,1) 100%);
+    /* --- Fuentes --- */
+    --fuenteHead: 'Satisfy', cursive;
+    --fuenteBody: 'Archivo Narrow', sans-serif;
+    --fuenteFoot: 'Cinzel', serif;
+}
+
+/* -- Header ---*/
+header {
+    background-color: black;
+}
+
+/* --- Body --- */
+.fondoPropio{
+    background: var(--colorBody);
+}
+
+/* --- Titulo --- */
+.titulo_nav {
+    text-decoration: overline;
+    font-family: var(--fuenteHead);
+    font-size: 30px;
+}
+.texto_nav a {
+    font-family: var(--fuenteHead);
+    font-size: 23px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+/* --- Carrousel --- */
+.carrousel h2 {
+    color: aqua;
+}
+.carrousel p {
+    color: aqua;
+}
+
+/* --- Sobre mi --- */
+.sobreMi h2 {
+    box-shadow: 5px 5px 5px 5px;
+    text-decoration: underline;
+    font-family: var(--fuenteHead);
+}
+.sobreMi img {
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 10%;
+}
+
+/* --- Mis Aficiones --- */
+.aficiones {
+    text-align: justify;
+    line-height: 2em;
+    /* La distancia es el tamaño de la fuente *2 veces */
+}
+.misAficiones {
+    box-shadow: 5px 5px 5px 5px;
+    text-decoration: underline;
+    font-family: var(--fuenteHead);
+}
+.titulo_aficiones {
+    box-shadow: 5px 5px 5px 5px;
+    text-decoration: underline;
+    font-family: var(--fuenteFoot);
+    font-size: 25px;
+}
+
+/* --- Tabla proyectos --- */
+.misProyectos {
+    text-decoration: underline;
+    font-family: var(--fuenteHead);
+    box-shadow: 5px 5px 5px 5px;
+}
+
+/* --- Mi tabla personalizada sin bootstrap --- */
+.miTabla {
+    border: 2px double var(--negro);
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px 5px;
+    background: var(--colorRadiante);
+    line-height: 50px;
+}
+
+/* --- MQ de la tabla para dejar márgenes a los lados --- */
+@media screen and (min-width: 468px) {
+    .miTabla {
+        width: 90%;
+    }
+}
+.miTabla_thead {
+    border-bottom: 2px dashed var(--dorado);
+    font-family: var(--fuenteHead);
+    font-size: 25px;
+    text-align: center;
+    color: var(--dorado);
+}
+.miTabla_caption {
+    text-align: center;
+    caption-side: top;
+    font-family: var(--fuenteHead);
+    font-size: 30px;
+    text-decoration: underline;
+    color: var(--azul);
+}
+.miTabla_tbody td {
+    text-align: center;
+    border-right: 2px dashed var(--dorado);
+    font-family: var(--fuenteBody);
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+.miTabla_tfoot {
+    text-align: center;
+    font-family: var(--fuenteFoot);
+    font-size: 20px;
+    color: var(--negro);
+    text-decoration: overline;
+}
+
+/* --- Footer ---*/
+.miFooter{
+    font-family: var(--fuenteHead);
+    color: var(--dorado);
+    font-size: 25px;
+}

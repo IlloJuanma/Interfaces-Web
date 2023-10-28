@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Juanma Rodríguez - Diseño Web</title>
+        <!-- Enlaces -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Cinzel&family=Satisfy&display=swap"
+            rel="stylesheet">
+
+    </head>
+    <body class="fondoPropio">
+        <header>
+            <!-- NavBar -->
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand titulo_nav" href="#"><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-torii"
+                                width="32" height="32" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#ffffff" fill="none"
+                                stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z"
+                                    fill="none" />
+                                <path d="M4 4c5.333 1.333 10.667 1.333 16 0" />
+                                <path d="M4 8h16" />
+                                <path d="M12 5v3" />
+                                <path d="M18 4.5v15.5" />
+                                <path d="M6 4.5v15.5" />
+                            </svg> Juanma R. <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-torii"
+                                width="32" height="32" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#ffffff" fill="none"
+                                stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z"
+                                    fill="none" />
+                                <path d="M4 4c5.333 1.333 10.667 1.333 16 0" />
+                                <path d="M4 8h16" />
+                                <path d="M12 5v3" />
+                                <path d="M18 4.5v15.5" />
+                                <path d="M6 4.5v15.5" />
+                            </svg></a>
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse texto_nav"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#proyectos">Mis
+                                        proyectos</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#"
+                                        role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Redes Sociales
+                                    </a>
+                                    <ul class="dropdown-menu bg-dark-subtle">
+                                        <li><a class="dropdown-item"
+                                                href="https://www.instagram.com/juanma_rodrguez/"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="icon icon-tabler icon-tabler-brand-instagram"
+                                                    width="32"
+                                                    height="32"
+                                                    viewBox="0 0 24 24"
+                                                    stroke-width="1.5"
+                                                    stroke="#000000"
+                                                    fill="none"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <path stroke="none"
+                                                        d="M0 0h24v24H0z"
+                                                        fill="none" />
+                                                    <path
+                                                        d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                                                    <path
+                                                        d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                                                    <path d="M16.5 7.5l0 .01" />
+                                                </svg> Instagram</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="https://twitter.com/MrFlexaverde"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="icon icon-tabler icon-tabler-brand-x"
+                                                    width="32" height="32"
+                                                    viewBox="0 0 24 24"
+                                                    stroke-width="1.5"
+                                                    stroke="#000000" fill="none"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <path stroke="none"
+                                                        d="M0 0h24v24H0z"
+                                                        fill="none" />
+                                                    <path
+                                                        d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                                                    <path
+                                                        d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                                                </svg> Twitter</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="https://github.com/IlloJuanma"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="icon icon-tabler icon-tabler-brand-github"
+                                                    width="32" height="32"
+                                                    viewBox="0 0 24 24"
+                                                    stroke-width="1.5"
+                                                    stroke="#000000" fill="none"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <path stroke="none"
+                                                        d="M0 0h24v24H0z"
+                                                        fill="none" />
+                                                    <path
+                                                        d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                                </svg> Github</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contacto" class="nav-link">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Carrousel -->
+        <section class="carrousel">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/1920/500?=random=1"
+                            class="d-block w-100" alt="primer-foto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Graduado en I.E.S Santa Bárbara - Málaga</h2>
+                            <p>Bachillerato Letras y Humanidades</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1920/500?random=2"
+                            class="d-block w-100" alt="segunda-foto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Diferentes empleos de cara al público</h2>
+                            <p>Como técnico de farmacia y vigilante de seguridad</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1920/500?=random3"
+                            class="d-block w-100" alt="tercera-foto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Estudiante de Medac - Nova</h2>
+                            <p>Estudiante de la prestigiosa academia Medac</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Sobre mi -->
+        <section class="sobreMi my-5">
+            <h2 class="text-center my-3 sobreMi container">Sobre mi</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="fs-5">
+                            Nací el 13 de Octubre de 1992 en Cádiz, España. Me
+                            considero una persona trabajadora y puntual,
+                            que trabaja bien en equipo o en solitario, y que doy
+                            lo mejor de mi en cada proyecto, tanto personal
+                            como laboral. Uno de mis objetivos es trabajar para
+                            una gran empresa de ámbito mundial, abierto a
+                            translados
+                            fuera de España si fuera necesario. Japón seria un
+                            buen destino.
+                            Amante de los animales y de la buena comida,
+                            incluida la comida rápida. <br><br>
+                            El futuro en la programación web se ve emocionante y
+                            lleno de oportunidades,
+                            y estoy ansioso por asumir nuevos desafíos con
+                            entusiasmo y determinación.
+                        </p>
+
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" src="img/yo.jpg" alt="foto"
+                            width="500" height="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Aficiones -->
+        <section class="aficiones my-5">
+            <h2 class="text-center my-3 misAficiones container">Mis Aficiones</h2>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card text-center">
+                            <img src="img/pc.webp" class="card-img-top"
+                                alt="foto-carta">
+                            <div class="card-body">
+                                <h5 class="card-title titulo_aficiones">Tecnología</h5>
+                                <p class="card-text">Me interesa estar al dia de
+                                    todo lo tecnologico y tener
+                                    siempre que pueda lo último. Pc y móviles de
+                                    gama alta.
+                                </p>
+                                <a
+                                    href="https://www.imnovation-hub.com/es/ciencia-y-tecnologia/?gad_source=1&gclid=C
+                                    jwKCAjw1t2pBhAFEiwA_-A-NNAMKO0eI5jUdfWmVc9j_xNBdKcTp
+                                    MFOgmZDIaiqt4wgFtgEgXJMThoCXOwQAvD_BwE&_adin=02021864894"
+                                    class="btn btn-primary">Ver Más</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-center">
+                            <img src="img/rdr2.jpg" class="card-img-top"
+                                alt="foto-carta">
+                            <div class="card-body">
+                                <h5 class="card-title titulo_aficiones">Videojuegos</h5>
+                                <p class="card-text">Soy un apasionado de este
+                                    arte desde que tengo uso
+                                    de razón, tanto en Pc como en consolas.
+                                    Nunca me cansaré. Soy frikingo.
+                                </p>
+                                <a href="https://www.3djuegos.com/"
+                                    class="btn btn-primary">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-center">
+                            <img src="img/jungla.webp" class="card-img-top"
+                                alt="foto-carta">
+                            <div class="card-body">
+                                <h5 class="card-title titulo_aficiones">Cine</h5>
+                                <p class="card-text">No seria lo que soy si no
+                                    fuera por el cine, sobretodo
+                                    de la epoca de los 90s y los 00s. La mejor
+                                    época
+                                    del cine.
+                                </p>
+                                <a
+                                    href="https://www.filmaffinity.com/es/ranking.php?rn=90s"
+                                    class="btn btn-primary">Ver
+                                    Más</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Mis Proyectos -->
+        <section class="tabla my-5">
+            <div class="container">
+                <h2 class="text-center my-3 misProyectos" id="proyectos">Mis
+                    Proyectos</h2>
+                <table
+                    class="table table-dark table-hover shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nº</th>
+                            <th scope="col">Plataforma</th>
+                            <th scope="col">Lenguaje</th>
+                            <th scope="col">Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Udemy</td>
+                            <td>HTML/CSS/BOOTSTRAP</td>
+                            <td>Básico/Medio</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Udemy</td>
+                            <td>Phyton</td>
+                            <td>Básico</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>OpenWebinars</td>
+                            <td>Javascript</td>
+                            <td>Curso inicio</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Udemy</td>
+                            <td>Hacking Ético</td>
+                            <td>De 0 a 100</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+        <!-- Actividades Recientes -->
+        <section>
+            <div>
+                <table class="miTabla">
+                    <caption class="miTabla_caption container">Actividades
+                        Recientes</caption>
+                    <thead class="miTabla_thead">
+                        <tr>
+                            <th>Diseño Web</th>
+                            <th>Javascript</th>
+                            <th>PhP</th>
+                            <th>Despliegue aplicaciones</th>
+                        </tr>
+                    </thead>
+                    <tbody class="miTabla_tbody">
+                        <tr>
+                            <td>Creado una página web sobre mi</td>
+                            <td>Ejercicios de DOM y funciones anónimas</td>
+                            <td>Ejercicios validaciones de formularios y MySQL</td>
+                            <td>Despliegue de páginas web usando Apache y Nginx</td>
+                        </tr>
+                        <tr>
+                            <td>Control de CSS</td>
+                            <td>Ejercicios de botones y eventos</td>
+                            <td>Creacion de tablas mediante php</td>
+                            <td>Creacion de máquinas virtuales con Virtual box</td>
+                        </tr>
+                        <tr>
+                            <td>Creacion de clases y uso de pseudoelementos</td>
+                            <td>Cambiar fondo de ventana mediante funciones y
+                                demás</td>
+                            <td>Creacion de tablas con MySQL</td>
+                            <td>Creación de carpeta y archivos mediante comandos</td>
+                        </tr>
+                        <tr>
+                            <td>Uso de bootstrap y otras herramientas de diseño</td>
+                            <td>Arrays y arrays multidimensionales</td>
+                            <td>Uso de funiones y control de datos con PhP</td>
+                            <td>Personalizar máquinas virtuales y diferentes
+                                sistemas operativos</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="miTabla_tfoot">
+                        <tr>
+                            <th colspan="4"><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-code"
+                                    width="44" height="44" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"
+                                        fill="none" />
+                                    <path d="M7 8l-4 4l4 4" />
+                                    <path d="M17 8l4 4l-4 4" />
+                                    <path d="M14 4l-4 16" />
+                                </svg> Desarrollo Aplicaciones WEB <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="icon icon-tabler icon-tabler-code-off"
+                                    width="44" height="44" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"
+                                        fill="none" />
+                                    <path d="M7 8l-4 4l4 4" />
+                                    <path d="M17 8l4 4l-2.5 2.5" />
+                                    <path
+                                        d="M14 4l-1.201 4.805m-.802 3.207l-2 7.988" />
+                                    <path d="M3 3l18 18" />
+                                </svg></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <!-- Formulario de contacto -->
+        <section class="contactame bg-secondary py-4 my-3">
+            <h2 class="text-center" id="contacto"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-mail-forward" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="#2c3e50" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5" />
+                    <path d="M3 6l9 6l9 -6" />
+                    <path d="M15 18h6" />
+                    <path d="M18 15l3 3l-3 3" />
+                </svg> Contáctame</h2>
+            <div class="container">
+                <form class="row">
+                    <div class="mb-3 col-4">
+                        <label for="Nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="Nombre"
+                            aria-describedby="nombre">
+                        <div id="nombre" class="form-text"></div>
+                    </div>
+                    <div class="mb-3 col-4">
+                        <label for="exampleInputEmail1" class="form-label">Correo
+                            Electrónico</label>
+                        <input type="email" class="form-control"
+                            id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="mb-3 col-4">
+                        <label for="Asunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="asunto"
+                            aria-describedby="asunto">
+                        <div id="asunto" class="form-text"></div>
+                    </div>
+                    <div class="mb-3 col-12">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" name="mensaje" id
+                            cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+        <!-- Footer -->
+        <footer class="text-center py-3 miFooter">
+            &copy; Juanma Rodríguez Moreno - <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-alipay" width="44"
+                height="44" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="#2c3e50" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M19 3h-14a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-14a2 2 0 0 0 -2 -2z" />
+                <path d="M7 7h10" />
+                <path d="M12 3v7" />
+                <path
+                    d="M21 17.314c-2.971 -1.923 -15 -8.779 -15 -1.864c0 1.716 1.52 2.55 2.985 2.55c3.512 0 6.814 -5.425 6.814 -8h-6.604" />
+            </svg> Todos los derechos reservados 2023
+        </footer>
+        <!-- JavaScript Scripts -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
